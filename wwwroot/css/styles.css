@@ -59,6 +59,7 @@ body {
 .btn-main {
     background-color: #0c8681;
     color: white;
+    margin-top: 5px;
 }
 
 .list-group-item {
