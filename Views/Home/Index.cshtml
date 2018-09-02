@@ -1,32 +1,141 @@
 <!-- Home -->
 <div class="row" id="home">
-    <div class="col-xs-12" style="padding: 100px 75px; background-color: #1377a9;">
-        <img src="~/images/headshot.jpg" alt="Headshot" class="img-fluid img-circle" style="display: block; margin: 0px auto;" height=25% width=25%>
-        <h1 class="text-center text-uppercase" style="color: white;">Damian<span style="color: #333">Korzeniewski</span></h1>
-        <h2 class="text-center text-uppercase" style="color: #333; font-weight: 700;">full stack developer</h2>
+    <div class="col-xs-12 col-arizona text-center">
+        <img src="~/images/headshot.jpg" alt="Headshot" class="img-fluid img-circle" width=25%>
+        <h1 class="text-uppercase color-white"><strong>Damian<span class="color-grey">Korzeniewski</span></strong></h1>
+        <h2 class="text-uppercase color-grey"><strong>Full Stack Developer</strong></h2>
     </div>
 </div>
 <!-- Work -->
-<div class="row" id="work" style="padding: 75px 75px 100px 75px;">
-    <div class="col-xs-12">
-        <h2 class="text-uppercase text-center" style="color: #333;">My<span style="color: grey;">Work</span></h2>
+<div class="row row-white" id="work">
+    <div class="col-xs-12 text-center">
+        <h2 class="text-uppercase h2-header">My<span class="color-arizona">Work</span></h2>
     </div>
-    <!-- First Project --> 
-    <div style="padding: 5px;" class="col-xs-12 col-md-4">
-        <img src="~/images/gg.png" alt="GG Logo" class="img-fluid" height=50% width=50% style="margin: 0px auto; display: block;">
-        <h2 class="text-uppercase text-center" style="color: #333;">GG</h2>
-        <p style="font-style: italic;">GG (Good Gaming) is a video game matchmaking application for Xbox and Playstation gamers. Users may register for an account upon which they will have the ability to create a lobby for any game title. Users may also join created lobbies if capacity is availble by entering their gamertag which is used by the lobby host to invite them on their respective console.</p>
-        <a href="http://18.222.64.36/">Check it out</a>
-        <p style="display: inline-block; color: #333;">|</p>
-        <a data-toggle="modal" href="#gg">Technologies</a>
-        <p style="display: inline-block; color: #333;">|</p>
-        <a data-toggle="modal" href="https://github.com/damiankorz/GG">GitHub</a>
-        <!-- Modal -->
-        <div class="modal fade" id="gg">
+    <!-- Ghost Box --> 
+    <div class="col-xs-12 col-md-4 text-center col-pad">
+        <img src="~/images/ghostbox.png" alt="GhostBox Logo" class="img-fluid" width=85%>
+        <a href="http://www.ghostboxmovie.com" class="btn btn-main">Web</a>
+        <a data-toggle="modal" href="#ghostBoxInfo" class="btn btn-main">Info</a>
+        <a data-toggle="modal" href="#ghostBoxTech" class="btn btn-main">Tech</a>
+        <a href="https://github.com/damiankorz/ghostbox" class="btn btn-main">Git</a>
+        <!-- Modal Info -->
+        <div class="modal fade" id="ghostBoxInfo">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 style="color: #333;">Technologies</h3>
+                        <h3>Ghost Box</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Ghost Box is a promotional website for Michal Jarzabek's debut film, <em>Ghost Box (2018)</em>. The site features the film trailer and description, cast and crew bios, a behind the scenes gallery, and production notes regarding the making of <em>Ghost Box</em>.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Tech -->
+        <div class="modal fade" id="ghostBoxTech">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Technologies</h3>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">HTML5</li>
+                            <li class="list-group-item">CSS3</li>
+                            <li class="list-group-item">JQuery</li>
+                            <li class="list-group-item">C#</li>
+                            <li class="list-group-item">ASP.NET Core</li>
+                            <li class="list-group-item">ASP.NET MVC</li>
+                            <li class="list-group-item">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MyBucket --> 
+    <div class="col-xs-12 col-md-4 text-center col-pad">
+        <img src="~/images/mybucket.png" alt="MyBucket Logo" class="img-fluid" width=85%>
+        <a data-toggle="modal" href="#myBucketInfo" class="btn btn-main">Info</a>
+        <a data-toggle="modal" href="#myBucketTech" class="btn btn-main">Tech</a>
+        <a href="https://github.com/damiankorz/mybucket" class="btn btn-main">Git</a>
+        <!-- Modal Info -->
+        <div class="modal fade" id="myBucketInfo">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>MyBucket</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>MyBucket is a bucket list application where users can create and add items to their bucket list. Current items on a users' bucket list may be removed or marked complete. When creating a new list item, the user may enter an optional latitude and longitude to generate a static map view of a location using Google Maps API.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Tech -->
+        <div class="modal fade" id="myBucketTech">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Technologies</h3>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">HTML5</li>
+                            <li class="list-group-item">CSS3</li>
+                            <li class="list-group-item">JQuery</li>
+                            <li class="list-group-item">C#</li>
+                            <li class="list-group-item">ASP.NET Core</li>
+                            <li class="list-group-item">ASP.NET MVC</li>
+                            <li class="list-group-item">Entity Framework</li>
+                            <li class="list-group-item">MySQL</li>
+                            <li class="list-group-item">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- GG --> 
+    <div class="col-xs-12 col-md-4 text-center col-pad">
+        <img src="~/images/gg.png" alt="GG Logo" class="img-fluid" width=85%>
+        <a data-toggle="modal" href="#ggInfo" class="btn btn-main">Info</a>
+        <a data-toggle="modal" href="#ggTech" class="btn btn-main">Tech</a>
+        <a href="https://github.com/damiankorz/GG" class="btn btn-main">Git</a>
+        <!-- Modal Info -->
+        <div class="modal fade" id="ggInfo">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>GG</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>GG (Good Gaming) is a video game matchmaking application for Xbox and Playstation gamers. Users may register for an account upon which they will have the ability to create a lobby for any game title. Users may also join created lobbies if capacity is availble by entering their gamertag which is used by the lobby host to invite them on their respective console.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Tech -->
+        <div class="modal fade" id="ggTech">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Technologies</h3>
                     </div>
                     <div class="modal-body">
                         <ul class="list-group">
@@ -47,20 +156,34 @@
             </div>
         </div>
     </div>
-    <!-- Second Project -->
-    <div style="padding: 5px;" class="col-xs-12 col-md-4">
-        <img src="~/images/havn.png" alt="HAVN Logo" class="img-fluid" height=50% width=50% style="margin: 0px auto; display: block; margin-bottom: 45px; margin-top: 25px;">
-        <h2 class="text-uppercase text-center" style="color: #333;">haven</h2>
-        <p style="font-style: italic;">Haven is a social media application for gamers to create blogs about the latest and greatest in the video game community. The app enables a user to register for an account that will allow the user to create blogs on video game topics for the community to see. Users will also have the option on leaving comments on other users' posts.</p>
-        <a data-toggle="modal" href="#havn">Technologies</a>
-        <p style="display: inline-block; color: #333;">|</p>
-        <a data-toggle="modal" href="https://github.com/damiankorz/haven/tree/master/haven">GitHub</a>
-        <!-- Modal -->
-        <div class="modal fade" id="havn">
+    <!-- Haven -->
+    <div class="col-xs-12 col-md-4 text-center col-pad">
+        <img src="~/images/havn.png" alt="HAVN Logo" class="img-fluid" width=85%>
+        <a data-toggle="modal" href="#havnInfo" class="btn btn-main">Info</a>
+        <a data-toggle="modal" href="#havnTech" class="btn btn-main">Tech</a>
+        <a href="https://github.com/damiankorz/haven/tree/master/haven" class="btn btn-main">Git</a>
+        <!-- Modal Info -->
+        <div class="modal fade" id="havnInfo">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 style="color: #333;">Technologies</h3>
+                        <h3>Havn</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Haven is a social media application for gamers to create blogs about the latest and greatest in the video game community. The app enables a user to register for an account that will allow the user to create blogs on video game topics for the community to see. Users will also have the option on leaving comments on other users' posts.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Tech -->
+        <div class="modal fade" id="havnTech">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Technologies</h3>
                     </div>
                     <div class="modal-body">
                         <ul class="list-group">
@@ -78,20 +201,34 @@
             </div>
         </div>
     </div>
-    <!-- Third Project -->
-    <div style="padding: 5px;" class="col-xs-12 col-md-4">
-        <img src="~/images/dojodachi.png" alt="GG Logo" class="img-fluid" height=50% width=50% style="margin: 0px auto; display: block;">
-        <h2 class="text-uppercase text-center" style="color: #333;">Dojodachi</h2>
-        <p style="font-style: italic;">Dojodachi is a virtual pet based on the popular Tamagotchi. The Dojodachi starts out with 20 happiness, 20 fullness, 50 energy, and 3 meals. The goal is to get happiness, fullness, and energy above 100% by feeding, playing, and working with your Dojodachi. If happiness or fullness drop to zero, your Dojodachi dies. The app uses session to keep track of your Dojodachi's stats.</p>
-        <a data-toggle="modal" href="#dojodachi">Technologies</a>
-        <p style="display: inline-block; color: #333;">|</p>
-        <a data-toggle="modal" href="https://github.com/damiankorz/assignments/tree/master/netcore/Dojodachi">GitHub</a>
-        <!-- Modal -->
-        <div class="modal fade" id="dojodachi">
+    <!-- Dojodachi-->
+    <div class="col-xs-12 col-md-4 text-center col-pad">
+        <img src="~/images/dojodachi.png" alt="GG Logo" class="img-fluid" width=85%>
+        <a data-toggle="modal" href="#dachiInfo" class="btn btn-main">Info</a>
+        <a data-toggle="modal" href="#dachiTech" class="btn btn-main">Tech</a>
+        <a href="https://github.com/damiankorz/assignments/tree/master/netcore/Dojodachi" class="btn btn-main">Git</a>
+        <!-- Modal Info -->
+        <div class="modal fade" id="dachiInfo">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 style="color: #333;">Technologies</h3>
+                        <h3>Dojodachi</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Dojodachi is a virtual pet based on the popular Tamagotchi. The Dojodachi starts out with 20 happiness, 20 fullness, 50 energy, and 3 meals. The goal is to get happiness, fullness, and energy above 100% by feeding, playing, and working with your Dojodachi. If happiness or fullness drop to zero, your Dojodachi dies. The app uses session to keep track of your Dojodachi's stats.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="dachiTech">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Technologies</h3>
                     </div>
                     <div class="modal-body">
                         <ul class="list-group">
@@ -108,21 +245,22 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-12 text-center" style="margin-top: 15px;">
-        <a style="color: #7b30bb;" href="https://github.com/damiankorz">Check out my GitHub for more projects and source code...</a>
+    <div class="col-xs-12 col-md-4 text-center col-pad">
+        <h1 class="text-uppercase h1-filler">More Coming Soon!</h1>
+        <a href="https://github.com/damiankorz" class="color-arizona">Visit my GitHub for more projects...</a>
     </div>
 </div>
-<!-- About me -->
-<div class="row" style="padding: 75px 75px 100px 75px; background-color: #1377a9;" id="about">
-    <div class="col-xs-12">
-        <h2 class="text-uppercase text-center">About<span style="color: #333;">Me</span></h2>
+<!-- About -->
+<div class="row row-arizona" id="about">
+    <div class="col-xs-12 text-center">
+        <h2 class="text-uppercase h2-header-offset">About<span class="color-grey">Me</span></h2>
     </div>
     <div class="col-xs-12 col-md-6">
-        <h3 class="text-center text-uppercase" style="margin-bottom: 20px;">Summary</h3>
-        <p class="text-center" style="color: #333;" >Highly-motivated, self-sufficient full stack developer with a passion for the ASP.NET framework searching for a career that will allow me to utilize my problem solving, technical, and creative skills to deliver exceptional products.</p>
+        <h3 class="text-center text-uppercase color-white">Summary</h3>
+        <p class="text-center color-grey">Highly-motivated, self-sufficient full stack developer with a passion for the .NET framework searching for a career that will allow me to utilize my problem solving, technical, and creative skills to provide innovative solutions and deliver exceptional products.</p>
     </div>
     <div class="col-xs-12 col-md-6">
-        <h3 class="text-center text-uppercase">Technologies</h3>
+        <h3 class="text-center text-uppercase color-white">Technologies</h3>
         <ul class="list-inline text-center">
             <li class="list-group-item">HTML5</li>
             <li class="list-group-item">CSS3</li>
@@ -142,21 +280,26 @@
             <li class="list-group-item">MySQL</li>
             <li class="list-group-item">SQLite</li>
             <li class="list-group-item">Amazon EC2</li>
+            <li class="list-group-item">SASS</li>
+            <li class="list-group-item">Less</li>
+            <li class="list-group-item">Command Line</li>
+            <li class="list-group-item">API</li>
+            
         </ul>
     </div>
 </div>
 <!-- Contact -->
-<div class="row" id="contact" style="padding: 75px 75px 100px 75px;">
-    <div class="col-xs-12">
-        <h2 class="text-uppercase text-center" style="color: black;">Contact<span style="color: grey;">Me</span></h2>
+<div class="row row-white" id="contact">
+    <div class="col-xs-12 text-center">
+        <h2 class="text-uppercase h2-header">Contact<span class="color-arizona">Me</span></h2>
     </div>
     <div class="col-xs-12 col-md-6">
-        <h3 class="text-center text-uppercase" style="color: #333;">shoot me an email</h3>
+        <h3 class="text-center text-uppercase color-grey">shoot me an email</h3>
         <p class="text-center">Found a bug in my work? Have a question? Looking for an exceptional developer to join your team? Fill out the form to connect with me.</p>
-        <p class="text-center"><span style="font-size: 32pt;"><i class="far fa-envelope"></i></span></p>
+        <p class="text-center"><span class="glyph-mail"><i class="far fa-envelope"></i></span></p>
     </div>
-    <div class="col-xs-12 col-md-6" style="padding: 15px 0px;">
-        <form style="width: 75%; margin: 0px auto;" name="contactForm" action="mailto:damian.korz@gmail.com" method="post" enctype="text/plain" onsubmit="return validateForm()">
+    <div class="col-xs-12 col-md-6 col-form-pad">
+        <form name="contactForm" action="mailto:damian.korz@gmail.com" method="post" enctype="text/plain" onsubmit="return validateForm()">
             <div class="form-group">
                 <input type="text" placeholder="Name" name="Name" class="form-control"><br>
             </div>
@@ -169,7 +312,7 @@
             <div class="form-group">
                 <textarea cols="30" rows="5" class="form-control" name="Content" placeholder="Content"></textarea><br>
             </div>
-            <button type="submit" class="btn btn-primary">SEND</button>
+            <button type="submit" class="btn btn-main">Send</button>
         </form>
     </div>
 </div>

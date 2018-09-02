@@ -23,7 +23,7 @@
     crossorigin="anonymous"></script>
     <script src="~/js/script.js"></script>
 </head>
-<body style="padding: 0px">
+<body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -33,38 +33,38 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a style="font-weight: 700; color: white;" href="#home" class="navbar-brand nav-links">DAMIAN KORZENIEWSKI</a>
+                <a href="#home" class="navbar-brand nav-links">DAMIAN KORZENIEWSKI</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a class="nav-links text-uppercase" style="font-weight: 700; color: white;" href="#work">Work</a></li>
-                    <li><a class="nav-links text-uppercase" style="font-weight: 700; color: white;" href="#about">About</a></li>
-                    <li><a class="nav-links text-uppercase" style="font-weight: 700; color: white;" href="#contact">Contact</a></li>
+                    <li><a class="nav-links text-uppercase" href="#work">Work</a></li>
+                    <li><a class="nav-links text-uppercase" href="#about">About</a></li>
+                    <li><a class="nav-links text-uppercase" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container-fluid body-content">
         @RenderBody()
-        <footer class="row" style="background-color: #222; padding: 75px 75px;">
+        <footer class="row">
             <div class="col-xs-12 col-md-4"> 
-                <h2 class="text-uppercase text-center">Location</h2>
-                <h4 style="color: white;" class="text-uppercase text-center">Chicago, IL</h4>
+                <h2 class="text-uppercase text-center color-arizona">Location</h2>
+                <h4 class="text-uppercase text-center color-white">Chicago, IL</h4>
             </div>
             <div class="col-xs-12 col-md-4"> 
-                <h2 class="text-uppercase text-center">Social</h2>
+                <h2 class="text-uppercase text-center color-arizona">Social</h2>
                 <ul class="list-inline text-center">
-                    <li class="list-inline-item"><a class="btn-social" href="https://github.com/damiankorz"><i <i class="fab fa-github" style="color: white; font-size: 16pt;"></i></a></li>
-                    <li class="list-inline-item"><a href="https://linkedin.com/in/dkorzeniewski"><i class="fab fa-linkedin-in" style="color: white; font-size: 16pt;"></i></a></li>
-                    <li class="list-inline-item"><a href="https://facebook.com/dkorzeniewski"><i class="fab fa-facebook-f" style="color: white; font-size: 16pt;"></i></a></li>
+                    <li class="list-inline-item"><a class="btn-social" href="https://github.com/damiankorz"><span><i <i class="fab fa-github glyph"></i></span></a></li>
+                    <li class="list-inline-item"><a href="https://linkedin.com/in/dkorzeniewski"><span><i class="fab fa-linkedin-in glyph"></i></span></a></li>
+                    <li class="list-inline-item"><a href="https://facebook.com/dkorzeniewski"><span><i class="fab fa-facebook-f glyph"></i></span></a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-4"> 
-                <h2 class="text-uppercase text-center">Resume</h2>
-                <a class="text-center" style="display: block;" href="https://drive.google.com/file/d/19---QhIDTZBjWF5pJHeu6ux0jiJmPFJh/view?usp=sharing"><i class="far fa-file-pdf" style="color: white; font-size: 16pt;"></i></a>
+            <div class="col-xs-12 col-md-4 text-center"> 
+                <h2 class="text-uppercase color-arizona">Resume</h2>
+                <a href="https://drive.google.com/file/d/19---QhIDTZBjWF5pJHeu6ux0jiJmPFJh/view?usp=sharing"><i class="far fa-file-pdf glyph"></i></a>
             </div>
             <div class="col-xs-12">
-                <p style="color: #333; margin-top: 15px;" class="text-center">&copy; 2018 - Damian Korzeniewski</p>
+                <p class="text-center copyright">&copy; 2018 - Damian Korzeniewski</p>
             </div>
         </footer>
     </div>

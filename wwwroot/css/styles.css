@@ -1,9 +1,66 @@
-h1 {
-   font-weight: 700;
+body {
+    padding: 0px;
 }
-h2, h3 {
+
+.color-grey {
+    color: #333;
+}
+
+.color-white {
     color: white;
 }
+
+.color-arizona {
+    color: #0c8681;
+}
+
+.col-arizona {
+    padding: 100px 75px; 
+    background-color: #0c8681;
+}
+
+.row-arizona {
+    padding: 75px 75px 100px 75px;
+    background-color: #0c8681;
+}
+
+.row-white {
+    padding: 75px 75px 100px 75px;
+    background-color: white;
+}
+
+.col-pad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-form-pad {
+    padding: 15px 0px;
+}
+
+.h1-filler {
+    margin: 70px 0px;
+}
+
+.h2-header {
+    border: 5px solid #333;
+    padding: 10px;
+    display: inline-block;
+    color: #333;
+}
+
+.h2-header-offset {
+    border: 5px solid #333;
+    padding: 10px; 
+    display: inline-block;
+    color: white;
+}
+
+.btn-main {
+    background-color: #0c8681;
+    color: white;
+}
+
 .list-group-item {
     background-color: transparent;
     border: none;
@@ -22,8 +79,41 @@ h2, h3 {
     color: red;
 }
 
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: white;
+}
+
+
+.nav-links {
+    font-weight: 700;
+}
+
+form {
+    width: 75%; 
+    margin: 0px auto;
+}
+
 .form-group {
     margin-bottom: 0px;
+}
+
+.glyph {
+    font-size: 16pt;
+    color: white;
+}
+
+.glyph-mail {
+    font-size: 32pt; 
+}
+
+footer {
+    background-color: #222; 
+    padding: 75px 75px;
+}
+
+.copyright {
+    color: #444;
+    margin-top: 15px;
 }
 
 /* Small devices (landscape phones, 576px and up) */

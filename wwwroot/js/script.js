@@ -17,12 +17,12 @@ function validateForm(){
     }
 }
 
-//Remove default white hover on nav links 
+//Change color of nav links on hover
 $(document).ready(function(){
     $('.nav-links').mouseenter(function(){
-        $(this).css("font-style", "italic")
+        $(this).css("color", "#0c8681")
     })
     $('.nav-links').mouseout(function(){
-        $(this).css("font-style", "normal")
+        $(this).css("color", "white")
     })
 });
